@@ -42,3 +42,8 @@ console.log(`indexOf: ${str.indexOf("i")}`);
 console.log(`lastIndexOf: ${str.lastIndexOf("i")}`);
 console.log(`subtring: ${str.substring(3, 8)}`);
 console.log(`trim: ${str.trim()}`);
+
+
+const email = "Wester.torres9@gmail.com";
+const Emailnovo = email.toLowerCase;
+console.log(email.toLowerCase);
