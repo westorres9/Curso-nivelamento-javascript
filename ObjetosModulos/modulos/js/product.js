@@ -1,4 +1,4 @@
-class Product {
+export default class Product {
     constructor(name, price, quantity) {
       this.name = name;
       this.price = price;
@@ -23,7 +23,3 @@ class Product {
       return "Dados: " + this.name + ", " + this.price.toFixed(2);
     }
   }
-  
-  const p1 = new Product("Monitor", 800.0, 10);
-  
-  const p2 = new Product("Mouse", 50.0, 4);
